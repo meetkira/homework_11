@@ -22,7 +22,13 @@ p {
 a {
     text-decoration: none;
 }
+/*id*/
 
+.bigbox {
+    transform:scale(1.5);
+    opacity:0.9;
+    cursor:pointer;
+}
 
 /* Колонки */
 
@@ -39,7 +45,11 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
-
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    width: 250px;
 }
 
 .button {
