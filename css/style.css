@@ -1,34 +1,37 @@
 /* Сперва общие правила */
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 /* Потом селекторы по тегам */
 
 html {
-
+    font-family: sans-serif;
 }
 
 main {
     width: 300px;
-    margin: 0px auto;
+    margin: 40px auto;
 }
 
 p {
-
+    line-height: 1.5;
 }
 
 a {
-
+    text-decoration: none;
 }
+
 
 /* Колонки */
 
 .row {
-
+    display: flex;
 }
+
 .col {
+    flex: auto;
 
 }
 
@@ -36,20 +39,35 @@ a {
 /* Потом селекторы по классам */
 
 .text-input {
-
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    width: 250px;
 }
 
 .button {
-
+    background-color: #5449f0;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #5449f0;
+    width: 100px;
+    padding: 10px;
+    margin-top: 15px;
 }
+
 
 /* Потом специальные правила по страничкам */
 
 /* Login*/
 
 .input-login {
-
-
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    width: 300px;
 }
 
 
@@ -57,44 +75,98 @@ a {
 
 .genre-first {
 
+    background-color: #E1F5EA;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .genre-second {
-
+    background-color: #CBEDFF;
+    border-radius: 4px;
+    width: 75%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .genre-third {
-
+    background-color: #EEE5BD;
+    border-radius: 4px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .genre-fourth {
-
+    background-color: #EBDCF9;
+    border-radius: 4px;
+    width: 25%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .tag {
+    text-decoration: underline;
+}
 
+.bigbox {
+    transform:scale(1.5);
+    opacity:0.9;
+    cursor:pointer;
 }
 
 /* Страничка популярного */
 
 .cover {
+    margin-top: 20px;
+    margin-right: 25px;
+    width: 150px;
+}
 
+.h2_size {
+    font-size: 45px;
+    margin-bottom: 15px;
 }
 
 /* Страничка подписки  */
 
 .box-green {
-
+    background-color: #E1F5EA;
+    width: 250px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .box-purple {
-
+    background-color: #EBDCF9;
+    width: 250px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .text-large {
-
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .button-link {
+    background-color: #5449f0;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #5449f0;
+    padding: 10px;
+    margin-bottom: 50px;
+}
 
+/* Страничка книги */
+
+.h3_size {
+    font-size: 30px;
+    margin-top: 15px;
 }
