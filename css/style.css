@@ -1,13 +1,13 @@
 /* Сперва общие правила */
 
 * {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 /* Потом селекторы по тегам */
 
 html {
-
+    font-family: sans-serif;
 }
 
 main {
@@ -28,6 +28,7 @@ a {
 .row {
 
 }
+
 .col {
 
 }
@@ -40,8 +41,16 @@ a {
 }
 
 .button {
-
+    background-color: #5449f0;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #5449f0;
+    width: 100px;
+    padding: 10px;
+    margin-top: 15px;
 }
+
 
 /* Потом специальные правила по страничкам */
 
@@ -49,7 +58,11 @@ a {
 
 .input-login {
 
-
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    width: 300px;
 }
 
 
