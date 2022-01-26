@@ -16,13 +16,13 @@ main {
 }
 
 p {
-    width: 250px;
     line-height: 1.5;
 }
 
 a {
     text-decoration: none;
 }
+
 
 /* Колонки */
 
@@ -32,6 +32,7 @@ a {
 
 .col {
     flex: auto;
+
 }
 
 
@@ -58,7 +59,6 @@ a {
 /* Login*/
 
 .input-login {
-
     padding: 10px;
     border-radius: 4px;
     border: 1px solid;
@@ -71,22 +71,39 @@ a {
 
 .genre-first {
 
+    background-color: #E1F5EA;
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .genre-second {
-
+    background-color: #CBEDFF;
+    border-radius: 4px;
+    width: 75%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .genre-third {
-
+    background-color: #EEE5BD;
+    border-radius: 4px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .genre-fourth {
-
+    background-color: #EBDCF9;
+    border-radius: 4px;
+    width: 25%;
+    padding: 10px;
+    margin-top: 15px;
 }
 
 .tag {
-
+    text-decoration: underline;
 }
 
 /* Страничка популярного */
@@ -94,6 +111,7 @@ a {
 .cover {
     margin-top: 20px;
     margin-right: 25px;
+    width: 150px;
 }
 
 .h2_size {
